@@ -193,7 +193,7 @@ const AvailableGames = () => {
       } catch (err) {
         console.error(err.message);
       }
-      // window.location = `/stake?roomCode=${roomCode}`;
+      window.location = `/stake?roomCode=${roomCode}`;
     });
   }, []);
 

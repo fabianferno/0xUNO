@@ -136,7 +136,7 @@ const Staking = (props) => {
           ethers.utils.hexlify(ethers.utils.toUtf8Bytes(roomCode))
         );
 
-        // window.location = `/play?roomCode=${roomCode}`;
+        window.location = `/play?roomCode=${roomCode}`;
       }
     })();
   }, [gameData]);
